@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    overflow-x: hidden;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../img/wp7453603-portfolio-wallpapers.jpg);
+}
+
+.container{
+    max-width: 700px;
+    width: 100%;
+    background: #2ecc71;
+    border: 2px solid #2ecc71;
+    padding: 25px 30px;
+    border-radius: 30px;
+}
+
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box{
+    width: calc(100%/ 2 - 10px);
+}
+
+.user-details .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box input{
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+form .button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: #ffffff;
+}
+
+form .button input:hover{
+    background: transparent;
+    border: 2px solid;
+    color: #ffffff;
+    transition: .4s;
+}
