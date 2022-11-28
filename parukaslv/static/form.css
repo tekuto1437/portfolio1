@@ -71,3 +71,21 @@ form .button input:hover{
     color: #ffffff;
     transition: .4s;
 }
+
+form .button1{
+    color: white;
+    background: #2ecc71;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 8px 30px;
+    border: 2px solid #2ecc71;
+    border-radius: 30px;
+    cursor: pointer;
+}
+form .button1 input:hover{
+    background: transparent;
+    border: 2px solid;
+    color: #2ecc71;
+    transition: .4s;
+}
